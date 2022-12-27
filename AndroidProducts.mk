@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_beyond2lte.mk
+    $(LOCAL_DIR)/cherish_beyond2lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_beyond2lte-eng \
-    potato_beyond2lte-user \
-    potato_beyond2lte-userdebug
+    cherish_beyond2lte-eng \
+    cherish_beyond2lte-user \
+    cherish_beyond2lte-userdebug
