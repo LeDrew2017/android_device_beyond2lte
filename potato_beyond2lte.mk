@@ -33,13 +33,16 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 
+## Fingerprint animation
+EXTRA_UDFPS_ANIMATIONS := true
+
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := potato_beyond2lte
+PRODUCT_NAME := cherish_beyond2lte
 PRODUCT_DEVICE := beyond2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G975F
