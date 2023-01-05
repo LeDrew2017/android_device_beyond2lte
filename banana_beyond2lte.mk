@@ -33,8 +33,10 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 
-## Inherit some common Lineage stuff
+## Inherit some common Banana stuff
 $(call inherit-product, vendor/banana/config/common.mk)
+BANANA_MAINTAINER := FrEeRuNnEr4EvEr
+
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
