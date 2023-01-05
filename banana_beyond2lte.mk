@@ -36,6 +36,8 @@ TARGET_SCREEN_WIDTH := 1440
 ## Inherit some common Banana stuff
 $(call inherit-product, vendor/banana/config/common.mk)
 BANANA_MAINTAINER := FrEeRuNnEr4EvEr
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
