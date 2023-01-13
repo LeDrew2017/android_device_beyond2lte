@@ -37,7 +37,6 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, vendor/banana/config/common.mk)
 BANANA_MAINTAINER := FrEeRuNnEr4EvEr
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
 
 ## Enable updating of APEXes
