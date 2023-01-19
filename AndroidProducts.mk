@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_beyond2lte.mk
+    $(LOCAL_DIR)/omni_beyond2lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_beyond2lte-eng \
-    banana_beyond2lte-user \
-    banana_beyond2lte-userdebug
+    omni_beyond2lte-eng \
+    omni_beyond2lte-user \
+    omni_beyond2lte-userdebug
